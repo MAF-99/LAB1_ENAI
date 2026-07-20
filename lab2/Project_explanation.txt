@@ -1,1 +1,31 @@
-
+This code is an intelligent search system (AI Research Agent) built using LangGraph and LangChain. Its idea is that it takes a specific topic (such as GMC or artificial intelligence), then searches for it, analyzes the results, and evaluates the quality of the information. If the quality is poor, it repeats the search, and finally writes a complete report.
+========================================================================================================================================================================
+START
+  |
+  v
+Research Collection
+  |
+  v
+Memory Storage
+  |
+  v
+Analysis
+  |
+  v
+Quality Evaluation
+  |
+  +---- score < 7 ----+
+  |                   |
+  |                   v
+  +----- Research Collection
+  |
+  +---- score >= 7 ---->
+          |
+          v
+   Report Generation
+          |
+          v
+        Audit
+          |
+          v
+         END
