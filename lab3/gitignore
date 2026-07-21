@@ -1,0 +1,5 @@
+﻿__pycache__/
+*.pyc
+.env
+enterprise_memory_db/
+__MACOSX/

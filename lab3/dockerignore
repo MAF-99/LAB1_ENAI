@@ -1,0 +1,7 @@
+# Never send these to the Docker build context
+.env
+__pycache__/
+*.pyc
+final_report.txt
+*.md
+.git
